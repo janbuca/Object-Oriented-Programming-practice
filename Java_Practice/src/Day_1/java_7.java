@@ -3,7 +3,7 @@ package Day_1;
 
 import java.util.Scanner;
 public class java_7 {
-    public static void main(String[] args) {
+    public static void main(String[] firew) {
         Scanner input = new Scanner(System.in);
 float num1, num2;
 
@@ -15,9 +15,9 @@ float num1, num2;
 
        System.out.println(num1 == num2);
        System.out.println((num1 != num2));
-       System.out.println(num1 < num2);
-       System.out.println(num1 > num2);
-       System.out.println(num1 >= num2);
+       System.out.println((num1 < num2));
+       System.out.println((num1 > num2));
+       System.out.println((num1 >= num2));
         
     }
 }
