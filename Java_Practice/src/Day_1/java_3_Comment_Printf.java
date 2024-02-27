@@ -11,6 +11,7 @@ public class java_3_Comment_Printf {
         System.out.println("* ** *** **** *****");
 
         /* Multiline comment */
+        // the format of %d is a placeholder
     }// end method main
 
         
