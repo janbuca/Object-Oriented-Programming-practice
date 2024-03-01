@@ -1,0 +1,17 @@
+Control Structures- if single statement
+    Normally, statements in a program are executed one after the other in the order in which they're written.
+    This process is called sequential execution.
+
+Various Java statements, which we'll soon discuss, enable you to specify that the next statement to execute is not necessarily the next one in sequence.
+This is called transfer of control.
+
+Bohm and Jacopini's work demonstrated that all programs could be written in terms of only three control structures:
+
+the sequence structure,
+the selection structure and
+the repetition structure.
+if Single-Selection Statement
+
+Programs use selection statements to choose among alternative courses of action.
+
+For example, suppose that the passing grade on an exam is 80.

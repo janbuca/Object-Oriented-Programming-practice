@@ -14,7 +14,7 @@ private int numberOfStudents = 10;
 
     However, programs use variables of reference types (normally called references) to store the addresses of objects in the computer's memory.
     Such a variable is said to refer to an object in the program.
-     Objects that are referenced may each contain many instance variables.
+    Objects that are referenced may each contain many instance variables.
 
 Scanner input = new Scanner(System.in);
 
