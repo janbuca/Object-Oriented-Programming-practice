@@ -1,0 +1,4 @@
+The do...while repetition statement is similar to the while statement.
+    In the while, the program tests the loop-continuation condition at the beginning of the loop, before executing the loop's body; if the condition is false, the body never executes.
+    The do…while statement tests the loop-continuation condition after executing the loop's body; therefore, the body always executes at least once.
+    When a do...while statement terminates, execution continues with the next statement in sequence.
