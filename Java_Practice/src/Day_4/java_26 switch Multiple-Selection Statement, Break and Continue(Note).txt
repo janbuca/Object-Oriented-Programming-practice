@@ -1,0 +1,17 @@
+We have already discussed about the if single-selection statement and the if…else double-selection statement.
+The switch multiple-selection statement performs different actions based on the possible values of a constant integral expression of type byte, short, int or char.
+
+break
+    In addition to selection and repetition statements, Java provides statements break (which we discussed in the context of the switch statement)and continue to alter the flow of control.
+    The preceding section showed how break can be used to terminate a switch statement’s execution.
+
+        int count; // control variable also used after loop terminates
+
+        for (count = 1; count <= 10; count++) // loop 10 times
+        {
+        if (count == 5)
+        break;
+        System.out.printf("%d ", count);
+        }
+        System.out.printf("%nBroke out of loop at count = %d%n", count);
+        1 2 3 4 Broke out of loop at count = 5
