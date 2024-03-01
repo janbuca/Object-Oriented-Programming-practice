@@ -1,0 +1,16 @@
+Conditional OR (||) Operator
+
+if ((semesterAverage >= 90) || (finalExam >= 90))
+
+System.out.println ("Student grade is A");
+
+Boolean Logical Exclusive OR (^)
+
+A simple condition containing the boolean logical exclusive OR (^) operator is true if and only if one of its operands is true and the other is false. If both are true or both are false, the entire condition is false. This operator is guaranteed to evaluate both of its operands.
+
+This is example of boolean logical exclusive OR (^) operator:
+
+Logical Negation (!) Operator
+The ! (logical NOT, also called logical negation or logical complement) operator "reverses" the meaning of a condition. Unlike the logical operators &&, ||, &, | and ^, which are binary operators that combine two conditions, the logical negation operator is a unary operator that has only one condition as an operand.
+
+This is example of Negation Operator:
