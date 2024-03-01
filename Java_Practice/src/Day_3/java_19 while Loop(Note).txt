@@ -1,0 +1,3 @@
+A repetition statement allows you to specify that a program should repeat an action while some condition remains true.
+
+Examples Program Logic for Sentinel-Controlled Repetition vs. Counter-Controlled Repetition
