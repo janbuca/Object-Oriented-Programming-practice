@@ -1,0 +1,14 @@
+Java provides the conditional operator (?:) that can be used in place of an if…else statement.
+    This can make your code shorter and clearer.
+    The conditional operator is Java's only ternary operator (i.e., an operator that takes three operands).
+    Together, the operands and the ?: symbol form a conditional expression.
+    The first operand (to the left of the ?) is a boolean expression (i.e., a condition that evaluates to a boolean value—true or false), the second operand (between the ? and :) is the value of the conditional expression.
+
+    If the boolean expression is true and the third operand (to the right of the :) is the value of the conditional expression if the boolean expression evaluates to false.
+
+    For example, the statement
+        System.out.println(studentGrade >= 60 ? "Passed" : "Failed");
+        prints the value of println's conditional-expression argument.
+        The conditional expression in this statement evaluates to the string "Passed" if the boolean expression studentGrade >= 60 is true and to the string "Failed" if it's false.
+
+    Thus, this statement with the conditional operator performs essentially the same function as the if…else statement shown earlier in this section. The precedence of the conditional operator is low, so the entire conditional expression is normally placed in parentheses.

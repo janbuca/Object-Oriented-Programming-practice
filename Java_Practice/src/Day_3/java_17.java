@@ -11,28 +11,26 @@ public class java_17 {
         if(mark>=90){
             System.out.println("He/She is deserves Grade A+");
         }else if(mark>=85){
-            System.out.println("He/She is not Deserves Grade A");
+            System.out.println("He/She is Deserves Grade A");
         }else if(mark>=80){
-            System.out.println("He/She is not Deserves Grade A-");
+            System.out.println("He/She is Deserves Grade A-");
         }else if(mark>=75){
-            System.out.println("He/She is not Deserves Grade B+");
+            System.out.println("He/She is Deserves Grade B+");
         }else if(mark>=70){
-            System.out.println("He/She is not Deserves Grade B");
+            System.out.println("He/She is Deserves Grade B");
         }else if(mark>=65){
-            System.out.println("He/She is not Deserves Grade B-");
+            System.out.println("He/She is Deserves Grade B-");
         }else if(mark>=60){
-            System.out.println("He/She is not Deserves Grade C+");
+            System.out.println("He/She is Deserves Grade C+");
         }else if(mark>=55){
-            System.out.println("He/She is not Deserves Grade C");
+            System.out.println("He/She is Deserves Grade C");
         }else if(mark>=50){
-            System.out.println("He/She is not Deserves Grade C-");
+            System.out.println("He/She is Deserves Grade C-");
         }else if(mark>=45){
-            System.out.println("He/She is not Deserves Grade D");
+            System.out.println("He/She is  Deserves Grade D");
         }else if(mark<=45){
-            System.out.println("He/She is not Deserves Grade It is Fall");
-        }
-        
-
+            System.out.println("He/She is Grade It is Fall");
+        }     
     }
     
 }
