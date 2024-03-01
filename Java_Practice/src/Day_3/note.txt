@@ -1,0 +1,33 @@
+Java data types are divided into primitive types and reference types.
+    You worked with variables of type int'"one of the primitive types.
+    The other primitive types are boolean, byte, char, short, long, float and double.
+    These are summarized in Appendix D of Java how to program 10th edition.
+    All nonprimitive types are reference types, so classes, which specify the types of objects, are reference types.
+    A primitive-type variable can hold exactly one value of its declared type at a time.
+    For example, an int variable can store one integer at a time.
+    When another value is assigned to that variable, the new value replaces the previous one'"which is lost.
+    Recall that local variables are not initialized by default. Primitive-type instance variables are initialized by default.
+    instance variables of types byte, char, short, int, long, float and double are initialized to 0, and variables of type boolean are initialized to false.
+    You can specify your own initial value for a primitive-type variable by assigning the variable a value in its declaration, as in:
+
+private int numberOfStudents = 10;
+
+    However, programs use variables of reference types (normally called references) to store the addresses of objects in the computer's memory.
+    Such a variable is said to refer to an object in the program.
+     Objects that are referenced may each contain many instance variables.
+
+Scanner input = new Scanner(System.in);
+
+creates an object of class Scanner, then assigns to the variable input a reference to that Scanner object.
+
+Account myAccount = new Account();
+
+    creates an object of class Account, then assigns to the variable myAccount a reference to that Account object.
+    Reference-type instance variables, if not explicitly initialized, are initialized by default to the value null'"which represents a 'reference to nothing.' That's why the first call to getName returns null'"the value of name has not yet been set, so the default initial value null is returned.
+    To call methods on an object, you need a reference to the object.
+    The statements in method main use the variable myAccount to call methods getName and setName to interact with the Account object.
+    Primitive-type variables do not refer to objects, so such variables cannot be used to call methods.
+    Account Class: Initializing Objects with Constructors As mentioned before, when an object of class Account is created, its String instance variable name is initialized to null by default.
+    But what if you want to provide a name when you create an Account object? Each class you declare can optionally provide a constructor with parameters that can be used to initialize an object of a class when the object is created.
+    Java requires a constructor call for every object that's created, so this is the ideal point to initialize an object's instance variables.
+    The next example enhances class Account with a constructor that can receive a name and use it to initialize instance variable name when an Account object is created.
