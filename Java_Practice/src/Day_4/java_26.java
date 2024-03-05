@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class java_26 {
     public static void main(String[] firew) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // int c;
         // System.out.println("Enter your choice");
