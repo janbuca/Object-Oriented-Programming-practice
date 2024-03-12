@@ -25,7 +25,7 @@ public class java_4 {
         /* Add two numbers using a method */
         sum=addNumbers(num1, num2);
 
-        System.out.printf("The Sum is %d",sum); // print the result
+        System.out.printf("The Sum is %d",sum, "dfhvjsdv"); // print the result
     }
     
    /* Method to add two numbers*/
